@@ -84,7 +84,7 @@
 //Speed settings
 #define WHEEL_CIRCUMFERENCE 710
 #define GEAR_RATIO 22 //11 for BionX IGH3
-#define SPEEDLIMIT 25
+#define SPEEDLIMIT 50
 #define PULSES_PER_REVOLUTION 1
 #define SPEEDSOURCE INTERNAL
 #define SPEEDFILTER 1
@@ -99,13 +99,13 @@
 #define VOLTAGE_MIN 1320 //33V
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
-#define PH_CURRENT_MAX_ECO 300
-#define PH_CURRENT_MAX_NORMAL 660
-#define PH_CURRENT_MAX_SPORT 790
+#define PH_CURRENT_MAX_ECO 500
+#define PH_CURRENT_MAX_NORMAL 750
+#define PH_CURRENT_MAX_SPORT 1000
 
 // speed limits for invividual modes in kph
-#define SPEEDLIMIT_ECO 7
-#define SPEEDLIMIT_NORMAL 20
+#define SPEEDLIMIT_ECO 15
+#define SPEEDLIMIT_NORMAL 25
 #define SPEEDLIMIT_SPORT 50
 
 // battery voltage limits in mV
