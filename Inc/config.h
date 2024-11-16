@@ -92,24 +92,24 @@
 
 //---------------------------------------------------------------------
 //power settings
-#define PH_CURRENT_MAX 1200
-#define BATTERYCURRENT_MAX 14000
+#define PH_CURRENT_MAX 1400
+#define BATTERYCURRENT_MAX 16000
 #define REVERSE -1 //1 for normal direction, -1 for reverse
 #define PUSHASSIST_CURRENT 300
 #define VOLTAGE_MIN 1320 //33V
 
 // motor current limits for invividual modes in mA, see default settings at https://max.cfw.sh/#
-#define PH_CURRENT_MAX_ECO 500
-#define PH_CURRENT_MAX_NORMAL 750
-#define PH_CURRENT_MAX_SPORT 1000
+#define PH_CURRENT_MAX_ECO 650
+#define PH_CURRENT_MAX_NORMAL 900
+#define PH_CURRENT_MAX_SPORT 1400
 
 // speed limits for invividual modes in kph
 #define SPEEDLIMIT_ECO 15
-#define SPEEDLIMIT_NORMAL 25
+#define SPEEDLIMIT_NORMAL 20
 #define SPEEDLIMIT_SPORT 50
 
 // battery voltage limits in mV
-#define BATTERYVOLTAGE_MAX 41500
+#define BATTERYVOLTAGE_MAX 41000
 #define BATTERYVOLTAGE_MIN 33000
 
 //---------------------------------------------------------------------
